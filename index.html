@@ -11,7 +11,7 @@
 </head>
 
 <body id="body">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 130" class="lamp" id="lamp" onclick="changeColor(), bulbSwitchOn()">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 130" class="lamp" id="lamp" onclick="changeColor(), bulbSwitchOn(), playSound()">
         <!-- bulb -->
         <g>
             <circle class="bulb" cx="30" cy="109.3" r="10.7" />
@@ -35,6 +35,8 @@
         </g>
 
     </svg>
+        <audio src="Lamp Switch Off - QuickSounds.com.mp3" id="switchOnSound"></audio>
+        <audio src="Lamp Switch On - QuickSounds.com.mp3" id="switchOffSound"></audio>
 </body>
 
 </html>
