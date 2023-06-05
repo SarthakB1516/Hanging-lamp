@@ -12,7 +12,7 @@ function bulbSwitchOn()
 
 function playSound()
 {
-    const test = new Audio("Lamp Switch.mp3");
+    const test = new Audio("Lamp-Switch.mp3");
     // const ON = document.getElementById('switchOnSound');
     test.play();
 }
