@@ -58,7 +58,7 @@ body {
   @keyframes bodyOn {
     to {
       opacity: 1;
-      background-color:#FBF8CA;
+      background-color:#cfeaed;
     }
   }
   
