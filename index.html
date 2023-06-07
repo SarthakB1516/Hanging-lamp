@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hanging-lamp by Sarthak</title>
+    <title>Hanging Lamp by Sarthak</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 
 <body id="body">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 130" class="lamp" id="lamp" onclick="changeColor(), bulbSwitchOn(), playSound()">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 130" class="lamp" id="lamp"
+        onclick="changeColor(), bulbSwitchOn(), playSound(), textShadow()">
         <!-- bulb -->
         <g>
             <circle class="bulb" cx="30" cy="109.3" r="10.7" />
@@ -30,11 +31,17 @@
 
         <g class="switch">
             <line style="fill:none;stroke:#2D2D2F;stroke-width:0.5;stroke-miterlimit:10;" x1="49" y1="100" x2="49"
-                y2="118" class="lampButton"/>
+                y2="118" class="lampButton" />
             <circle style="fill:none;stroke:#2D2D2F;stroke-width:0.5;stroke-miterlimit:10;" cx="49" cy="120" r="1.6" />
         </g>
 
     </svg>
+    
+    <div class="text">
+        <h1 class="info">Hanging lamp</h1>
+        <h2 class="by">by Sarthak</h2>
+    </div>
+
 </body>
 
 </html>

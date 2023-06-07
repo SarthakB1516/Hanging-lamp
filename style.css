@@ -11,6 +11,10 @@ body {
     transition-duration: 2s;
     opacity: 0.5;
     box-sizing: border-box;
+    height: 667px;
+    position: fixed;
+    width: 100vw;
+    opacity: 0.3;
   }
   
   .lamp { 
@@ -66,8 +70,24 @@ body {
     50%{transform: rotate(-30deg);}
     100%{transform: rotate(30deg);}
   }
-  
-  @keyframes example {
-    from {background-color: #4e4e4e;}
-    to {background-color: white;}
+
+  .text{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-size: 60px;
+    color: #4e4e4e;
+  }
+
+  @keyframes textShadow {
+    to{
+      text-shadow: 3px 3px 5px #2D2D2F;
+    }
+  }
+
+  .text-shadow{
+    animation: textShadow .3s .3s 5 cubic-bezier(.26,1.17,.89,-0.74) alternate forwards;
   }
